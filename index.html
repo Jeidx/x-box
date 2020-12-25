@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/adaptive.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+</head>
+<body>
+    <header>
+        <nav class="header-nav" id="header-fixed">
+            <div class="wrapper">
+                <div class="container-nav">
+                    <div class="logo">
+                        <img class="logo__img" src="img/xbox.svg" alt="">
+                    </div>
+    
+                    <ul class="header-nav-list">
+                        <li class="header-nav-list__item">
+                            <a href="###" class="container-named" id="dropdawn-btn">
+                                <span  class="header-nav-list__item__title">Games</span>
+                                <span class="header-nav-list__item__triangle">
+                                    <img id="nav-triang" class="header-nav-list__item__triangle-img" src="img/triangle-nav.svg" alt="">
+                                </span>
+                            </a>
+                            <ul id="dropdawn-list" class="header-nav-list__item__dropdawn">
+                                <li class="header-nav-list__item__dropdawn-item"><a href="#">Star Wars</a></li>
+                                <li class="header-nav-list__item__dropdawn-item"><a href="#">World of Warcraft</a></li>
+                                <li class="header-nav-list__item__dropdawn-item"><a href="#">Call of Duty</a></li>
+                            </ul>
+                        </li>
+
+
+                        <li class="header-nav-list__item">
+                            <a href="###" class="container-named"  id="dropdawn-btn2">
+                                <span class="header-nav-list__item__title">Consoles</span>
+                                <span class="header-nav-list__item__triangle">
+                                    <img id="nav-triang2" class="header-nav-list__item__triangle-img" src="img/triangle-nav.svg" alt="">
+                                </span>
+                            </a>
+                            <ul id="dropdawn-list2" class="header-nav-list__item__dropdawn">
+                                <li class="header-nav-list__item__dropdawn-item"><a href="#">Sony Play Station 4</a></li>
+                                <li class="header-nav-list__item__dropdawn-item"><a href="#">XBOX ONE</a></li>
+                                <li class="header-nav-list__item__dropdawn-item"><a href="#">Sega</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="header-nav-list__item">
+                            <a class="header-nav-list__item__title" href="##">Community</a>
+                        </li>
+                        <li class="header-nav-list__item">
+                            <input placeholder="Search" type="text">
+                        </li>
+
+                        <li class="header-nav-list__item">
+                            <a href="###" class="container-named" id="dropdawn-btn3">
+                                <span class="header-nav-list__item__user-logo"><img src="img/user.svg" alt=""></span>
+                                <span  class="header-nav-list__item__title">My XBOX</span>
+                                <span class="header-nav-list__item__triangle">
+                                    <img class="header-nav-list__item__triangle-img" id="nav-triang3" src="img/triangle-nav.svg" alt="">
+                                </span>
+                            </a>
+                            <ul id="dropdawn-list3" class="header-nav-list__item__dropdawn">
+                                <li class="header-nav-list__item__dropdawn-item"><a href="#">My Account</a></li>
+                                <li class="header-nav-list__item__dropdawn-item"><a href="#">Registration</a></li>
+                                <li class="header-nav-list__item__dropdawn-item"><a href="#">Join with</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+     
+        <section class="header-slider">
+            <!-- <div class="shadow"></div> -->
+            <!-- главынй контейнер слайддера -->
+            <div class="swiper-container image-slider">
+                <!-- Обязательная оболочка -->
+                <div class="swiper-wrapper image-slider__wrapper">
+                    <!-- слайды -->
+                    <div class="swiper-slide image-slider__slide">
+                        <!-- контент внутри слайда -->
+                        <div class="image-slider__image">
+                            <img src="img/Star-Wars-Battlefront-II-combat.png" alt="картинка">
+                            <div class="image-slider__image__product-info">
+                                <h1 class="image-slider__image__title">Star Wars</h1>
+                                <p class="image-slider__image__text">Battlefront II</p>
+
+                                <div class="image-slider__image__container-btn">
+                                    <a href="#">Watch Trailer</a>
+                                    <a href="#">Explore Games</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <!-- контент внутри слайда -->
+                        <div class="image-slider__image">
+                            <img src="img/codwp.jpg" alt="картинка">
+                            <div class="image-slider__image__product-info">
+                                <h1 class="image-slider__image__title">Call of Duty: WWII</h1>
+                                <p class="image-slider__image__text">Released on: 23/11/2017</p>
+
+                                <div class="image-slider__image__container-btn">
+                                    <a href="#">Watch Trailer</a>
+                                    <a href="#">Explore Games</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <!-- контент внутри слайда -->
+                        <div class="image-slider__image">
+                            <img src='img/legion.jpg' alt="картинка">
+                            <div class="image-slider__image__product-info">
+                                <h1 class="image-slider__image__title">World of Warcraft</h1>
+                                <p class="image-slider__image__text">Legion</p>
+
+                                <div class="image-slider__image__container-btn">
+                                    <a href="#">Watch Trailer</a>
+                                    <a href="#">Explore Games</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="swiper-slide">
+                        <!-- контент внутри слайда -->
+                        <div class="image-slider__image">
+                            <img src='img/games-wallpapers-2560x1600-00020.jpg' alt="картинка">
+                            <div class="image-slider__image__product-info">
+                                <h1 class="image-slider__image__title">Battlefield 3</h1>
+                                <p class="image-slider__image__text"></p>
+
+                                <div class="image-slider__image__container-btn">
+                                    <a href="#">Watch Trailer</a>
+                                    <a href="#">Explore Games</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <!-- стрелки управления -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+                <!-- пагинация -->
+                <div class="swiper-pagination"></div>
+
+                <!-- полоса прокрутки скролбар -->
+                <!-- <div class="swiper-scrollbar"></div> -->
+
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="value-card">
+            <div class="wrapper">
+                <div class="value-card__text-container">
+                    <img class="value-card__img" src="img/xbox icon.svg" alt="картинка">
+                    <h2 class="value-card__title">The best value</h2>
+                    <p class="value-card__text">in games and entertainment</p>
+                </div>
+                <ul class="value-card__list">
+                    <li class="value-card__list-item">
+                        <div class="value-card__container-img">
+                            <img src="img/1-card-2block.svg" alt="картинка">
+                        </div>
+                        <div class="value-card__container-content">
+                            <p class="value-card__container-content__title">XBOX ONE X</p>
+                            <p class="value-card__container-content__text">Faster Processing
+                                    Smoother Gameplay</p>
+                            <div class="value-card__container-content__btn">
+                                <a  href="###">Explore Consoles & Accessories</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="value-card__list-item">
+                        <div class="value-card__container-img">
+                            <img src="img/mixer.svg" alt="картинка">
+                        </div>
+                        <div class="value-card__container-content">
+                            <p class="value-card__container-content__title">XBOX ONE X</p>
+                            <p class="value-card__container-content__text">Faster Processing
+                                    Smoother Gameplay</p>
+                                    <div class="value-card__container-content__btn"><a  href="###">Explore Consoles & Accessories</a></div>
+                                </div>
+                    </li>
+                    <li class="value-card__list-item">
+                        <div class="value-card__container-img">
+                            <img src="img/gold.svg" alt="картинка">
+                        </div>
+                        <div class="value-card__container-content">
+                            <p class="value-card__container-content__title">XBOX ONE X</p>
+                            <p class="value-card__container-content__text">Faster Processing
+                                    Smoother Gameplay</p>
+                            <div class="value-card__container-content__btn">
+                                <a href="###">Explore Consoles & Accessories</a>
+                            </div>                          
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="slider-cards">
+            <div class="slider-cards-title">Exclusive games on XBOX</div>
+            <div class="blur"></div>
+            <div class="swiper-container slider-around">
+            <div class="swiper-wrapper">
+
+            <div class="swiper-slide swiper2st-container">
+                <li class="value-card__list-item swiper2st-item">
+                    <div class="value-card__container-img">
+                        <img src="img/slider2-1.svg" alt="картинка">
+                    </div>
+                    <div class="value-card__container-content">
+                        <p class="value-card__container-content__title">Call of Duty: WWII</p>
+                        <p class="value-card__container-content__text">The C.O.D.E. Bravery Pack
+                                is now available in WWII</p>
+                        <div class="value-card__container-content__btn">
+                            <a href="###">Explore Consoles & Accessories</a>
+                        </div>
+                    </div>
+                </li>
+            </div>
+            <div class="swiper-slide swiper2st-container">
+                <li class="value-card__list-item swiper2st-item">
+                    <div class="value-card__container-img">
+                        <img src="img/slider2-2.svg" alt="картинка">
+                    </div>
+                    <div class="value-card__container-content">
+                        <p class="value-card__container-content__title">Destiny 2</p>
+                        <p class="value-card__container-content__text">Faster Processing
+                            Smoother Gameplay</p>
+                        <div class="value-card__container-content__btn">
+                            <a href="###">Explore Consoles & Accessories</a>
+                        </div>
+                    </div>
+                </li>
+            </div>
+            <div class="swiper-slide swiper2st-container">
+                <li class="value-card__list-item swiper2st-item">
+                    <div class="value-card__container-img">
+                        <img src="img/slider2-3.svg" alt="картинка">
+                    </div>
+                    <div class="value-card__container-content">
+                        <p class="value-card__container-content__title">STEEP</p>
+                        <p class="value-card__container-content__text">Faster Processing
+                            Smoother Gameplay</p>
+                        <div class="value-card__container-content__btn">
+                            <a href="###">Explore Consoles & Accessories</a>
+                        </div>
+                    </div>
+                </li>
+            </div>
+            <div class="swiper-slide swiper2st-container">
+                <li class="value-card__list-item swiper2st-item">
+                    <div class="value-card__container-img">
+                        <img src="img/slider2-4.svg" alt="картинка">
+                    </div>
+                    <div class="value-card__container-content">
+                        <p class="value-card__container-content__title">Forza Motorsport 7</p>
+                        <p class="value-card__container-content__text">Faster Processing
+                            Smoother Gameplay</p>
+                        <div class="value-card__container-content__btn">
+                            <a href="###">Explore Consoles & Accessories</a>
+                        </div>
+                    </div>
+                </li>
+            </div>
+            <div class="swiper-slide swiper2st-container">
+                <li class="value-card__list-item swiper2st-item">
+                    <div class="value-card__container-img">
+                        <img src="img/slider2-1.svg" alt="картинка">
+                    </div>
+                    <div class="value-card__container-content">
+                        <p class="value-card__container-content__title">XBOX ONE X</p>
+                        <p class="value-card__container-content__text">Faster Processing
+                            Smoother Gameplay</p>
+                        <div class="value-card__container-content__btn">
+                            <a href="###">Explore Consoles & Accessories</a>
+                        </div>
+                    </div>
+                </li>
+            </div>
+            <div class="swiper-slide swiper2st-container">
+                <li class="value-card__list-item swiper2st-item">
+                    <div class="value-card__container-img">
+                        <img src="img/slider2-2.svg" alt="картинка">
+                    </div>
+                    <div class="value-card__container-content">
+                        <p class="value-card__container-content__title">XBOX ONE X</p>
+                        <p class="value-card__container-content__text">Faster Processing
+                            Smoother Gameplay</p>
+                        <div class="value-card__container-content__btn">
+                            <a href="###">Explore Consoles & Accessories</a>
+                        </div>
+                    </div>
+                </li>
+            </div>
+        </div>
+        </div>
+        <!-- стрелки управления -->
+        <div class="swiper-btn-prev"></div>
+        <div class="swiper-btn-next"></div>
+        <a class="slider-block-btn" href="#">XBOX Store</a>
+        </div>  
+    </section>
+        
+    <section class="design-info">
+        <div class="wrapper">
+            <div class="disign-container">
+                <h2 class="design-title">Xbox Design Lab</h2>
+                <p class="design-text">Make yours one in a billion with new colors, metallic finishes and rubberized grips.</p>
+                <div class="design-container-btn">
+                    <a href="###">Design Yours</a>
+                    <a href="###">Explore Consoles & Accessories</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    </main>
+    <footer>
+        <div class="wrapper footer-wrp">
+            <section class="footer-upper-container">
+                <ul class="footer-list">
+                    <div class="footer-list__title">XBOX</div>
+
+                    <div class="footer-list__container-item">
+                        <li class="footer-list__item"><a href="###">Support</a></li>
+                        <li class="footer-list__item"><a href="###">Contact us</a></li>
+                        <li class="footer-list__item"><a href="###">Privacy & cookies </a></li>
+                        <li class="footer-list__item"><a href="###">Terms of use </a></li>
+                    </div>  
+                </ul>
+
+                <ul class="footer-list">
+                    <div class="footer-list__title">Developers</div>
+
+                    <div class="footer-list__container-item">
+                        <li class="footer-list__item"><a href="###">Games</a></li>
+                        <li class="footer-list__item"><a href="###">Windows 10</a></li>
+                        <li class="footer-list__item"><a href="###">Creators Program</a></li>
+                        <li class="footer-list__item"><a href="###">Designed for XBOX</a></li>
+                    </div>
+
+                </ul>
+
+                <div class="footer-list">
+                    <div class="footer-list__title">Follow Us</div>
+
+                    <div class="footer-list__container-item">
+                        <div class="footer-list_social-links">
+                            <a href="###">
+                                    <svg width="11" height="20" viewBox="0 0 11 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.13988 20V10.8771H10.3831L10.8687 7.3217H7.13988V5.05172C7.13988
+                                    4.02235 7.44258 3.32089 9.006 3.32089L11 3.32V0.14008C10.655 0.0968294 9.47145 0 8.09444 0C5.21955 0 3.25144 1.65687
+                                    3.25144 4.69971V7.3217H0V10.8771H3.25144V20H7.13988Z" fill="#8DD83D"/>
+                            </a>
+ 
+                            
+                            <a href="###">
+                                    <svg width="21" height="18" viewBox="0 0 21 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M20.4208 0.332767C19.5876 0.852969 18.6669
+                                    1.2313 17.6829 1.43373C16.899 0.551344 15.7787 0 14.5385 0C12.1611 0 10.2317 2.03467 10.2317
+                                    4.54397C10.2317 4.90039 10.2687 5.24584
+                                    10.3427 5.57861C6.76208 5.38887 3.58794 3.58201 1.46175 0.829323C1.09057 1.50293 0.878621
+                                    2.28439 0.878621 3.11659C0.878621 4.69219 1.63893 6.08324 2.79566 6.89814C2.0903 6.87623
+                                    1.42475 6.66976 0.842736 6.33181V6.38717C0.842736 8.58966 2.32804 10.4271 4.30059 10.8429C3.9395
+                                    10.9496 3.55822 11.0032 3.16517 11.0032C2.88762 11.0032 2.6168 10.9756 2.35439 10.9225C2.90276 12.7271
+                                    4.49291 14.0414 6.37855 14.0766C4.90447 15.2958 3.04574 16.0224 1.02777 16.0224C0.680132 16.0224 0.336422
+                                    16.0017 0 15.9601C1.90639 17.2474 4.17219 18 6.60452 18C14.5301 18 18.8626 11.0771 18.8626 5.07167C18.8626
+                                    4.87386 18.8592 4.67662 18.8519 4.48284C19.6936 3.84211 20.4247 3.0422 21 2.13098C20.2285 2.49201 19.3975
+                                    2.73654 18.5262 2.84611C19.416 2.28439 20.0989 1.39393 20.4208 0.332767Z" fill="#8DD83D"/>
+                            </a>
+                            <a href="###">
+                                    <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M16.7415 0H2.25846C1.01107 0 0 1.00848 0 2.25328V16.7467C0
+                                    17.991 1.01107 19 2.25846 19H16.7415C17.9889 19 19 17.991 19 16.7467V2.25328C19 1.00848 17.9889 0 16.7415 
+                                    0ZM13.6565 2.96844C13.6565 2.64092 13.9223 2.37506 14.2499 2.37506H16.031C16.3591 2.37506 16.6249 2.64092
+                                    16.6249 2.96844V4.75013C16.6249 5.07765 16.3591 5.34351 16.031 5.34351H14.2499C13.9223 5.34351 13.6565 
+                                    5.07765 13.6565 4.75013V2.96844ZM9.52203 5.87677C11.54 5.87677 13.1761 7.50921 13.1761 9.52203C13.1761 
+                                    11.5354 11.54 13.1673 9.52203 13.1673C7.50454 13.1673 5.86848 11.5354 5.86848 9.52203C5.86848 7.50921 
+                                    7.50454 5.87677 9.52203 5.87677ZM17.2188 16.6249C17.2188 16.9525 16.953 17.2188 16.6249 17.2188H2.37506C2.04702
+                                    17.2188 1.78117 16.9525 1.78117 16.6249V7.71857H4.15623C3.84685 8.16373 3.74217 8.99446 3.74217 9.52203C3.74217
+                                    12.7014 6.33541 15.2884 9.52203 15.2884C12.7092 15.2884 15.3024 12.7014 15.3024 9.52203C15.3024 8.99446 15.2273
+                                    8.17669 14.8438 7.71857H17.2188V16.6249Z" fill="#8DD83D"/>
+
+                            </a>
+                        </div> 
+                    </div>
+                </div>
+            
+            </section>
+        
+        </div>
+        <div class="wrp">
+            <section class="footer-bottom-container">
+                    <span class="">English (United States)</span>
+                    <span class="">© Microsoft 2017</span>    
+            </section>
+        </div>
+
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="scripts/js.js"></script>
+    <script src="scripts/swiper.js"></script>
+</body>
+</html>
